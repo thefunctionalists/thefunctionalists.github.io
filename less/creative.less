@@ -101,27 +101,24 @@ aside {
 
 // Navigation
 
+
 .navbar-default {
     background-color: white;
     border-color: @theme-dark;
     .Montserrat;
     .transition-all;
     .navbar-header .navbar-brand {
+      color: @theme-primary;
+      width: 211px;
+      margin-left: 5px;
+      margin-top: 5px;
+      height: 40px;
+      background-image: url("../img/F-logo.svg");
+      font-size: 14px;
+      &:hover,
+      &:focus {
         color: @theme-primary;
-        .Montserrat;
-        font-weight: 700;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 5px;
-        width: 211px;
-        height: 60px;
-        background-image: url("../img/F-symbol.svg");
-        background-repeat: no-repeat;
-        text-transform: uppercase;
-        &:hover,
-        &:focus {
-            color: @theme-primary;
-        }
+      }
     }
     .nav {
         > li {
@@ -153,11 +150,21 @@ aside {
         background-color: transparent;
         border-color: white;
         .navbar-header .navbar-brand {
-            color: white;
-            &:hover,
-            &:focus {
-                color: white;
-            }
+          color: @theme-primary;
+          .Montserrat;
+          font-weight: 700;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          margin-left: 5px;
+          width: 211px;
+          height: 60px;
+          background-image: url("../img/F-symbol.svg");
+          background-repeat: no-repeat;
+          text-transform: uppercase;
+          &:hover,
+          &:focus {
+              color: @theme-primary;
+          }
         }
         .nav > li > a,
         .nav > li > a:focus {
