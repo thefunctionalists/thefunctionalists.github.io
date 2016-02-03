@@ -89,16 +89,12 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand {
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 5px;
   width: 211px;
-  height: 60px;
-  background-image: url("../img/F-symbol.svg");
-  background-repeat: no-repeat;
-  text-transform: uppercase;
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 40px;
+  background-image: url("../img/F-logo.svg");
+  font-size: 14px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -132,11 +128,21 @@ aside {
     border-color: white;
   }
   .navbar-default .navbar-header .navbar-brand {
-    color: white;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    width: 211px;
+    height: 60px;
+    background-image: url("../img/F-symbol.svg");
+    background-repeat: no-repeat;
+    text-transform: uppercase;
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
-    color: white;
+    color: #fff;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
