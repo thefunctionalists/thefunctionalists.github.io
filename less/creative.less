@@ -48,10 +48,18 @@ h2 {
 }
 
 .aboutbox{
-  border-style: solid;
   padding: 50px 100px 50px 80px;
   color: @theme-yellow;
 }
+@media (min-width: 768px) {
+  .aboutbox{
+    border-style: solid;
+    padding: 50px 100px 50px 80px;
+    color: @theme-yellow;
+  }
+}
+
+
 .aboutbox > .section-heading,
 .aboutbox > .light {
   color: @theme-primary;
@@ -221,7 +229,7 @@ header {
     .header-content {
         position: relative;
         text-align: center;
-        padding: 0px 50px 100px;
+        padding: 100px 50px 100px;
         width: 100%;
         .header-content-inner {
             h1 {
@@ -236,7 +244,7 @@ header {
             p {
                 font-weight: 300;
                 color: white;
-                font-size: 85px;
+                font-size:  50px;
                 text-align: left;
                 margin-right: auto;
                 margin-left: auto;
