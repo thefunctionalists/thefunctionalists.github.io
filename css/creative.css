@@ -41,6 +41,9 @@ h2 {
   padding: 50px 100px 50px 80px;
   color: #ffb921;
 }
+.icon-row {
+  margin-top: 40px;
+}
 @media (min-width: 768px) {
   .aboutbox {
     border-style: solid;
@@ -59,6 +62,13 @@ p {
 }
 .bg-primary {
   background-color: #fff;
+}
+.bg-sky {
+  background-color: #293742;
+  color: #000;
+}
+p > .bg-sky {
+  color: #fff;
 }
 .bg-dark {
   background-color: #000;
@@ -446,7 +456,9 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   display: table;
-  padding: 15px 70px;
+  margin-top: 56px;
+  font-size: 15px;
+  padding: 16px 90px;
 }
 ::-moz-selection {
   color: white;

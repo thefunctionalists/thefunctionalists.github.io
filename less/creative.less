@@ -51,6 +51,11 @@ h2 {
   padding: 50px 100px 50px 80px;
   color: @theme-yellow;
 }
+
+.icon-row {
+  margin-top: 40px;
+}
+
 @media (min-width: 768px) {
   .aboutbox{
     border-style: solid;
@@ -58,7 +63,6 @@ h2 {
     color: @theme-yellow;
   }
 }
-
 
 .aboutbox > .section-heading,
 .aboutbox > .light {
@@ -73,6 +77,15 @@ p {
 
 .bg-primary {
     background-color: @theme-primary;
+}
+
+.bg-sky {
+  background-color: @theme-sky;
+  color: @theme-dark;
+}
+
+p > .bg-sky {
+  color: @theme-primary
 }
 
 .bg-dark {
@@ -386,7 +399,9 @@ header {
 
 .btn-xl {
     display: table;
-    padding: 15px 70px;
+    margin-top: 56px;
+    font-size: 15px;
+    padding: 16px 90px;
 }
 
 // Extras
