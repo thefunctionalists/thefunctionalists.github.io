@@ -44,6 +44,9 @@ h2 {
 .icon-row {
   margin-top: 40px;
 }
+.text-secondary {
+  color: #566875;
+}
 @media (min-width: 768px) {
   .aboutbox {
     border-style: solid;
@@ -74,6 +77,8 @@ p > .bg-sky {
   background-color: #000;
   background-image: url("../img/about.jpg");
   background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 130px;
   color: white;
 }
 .header-content-inner-inner {
