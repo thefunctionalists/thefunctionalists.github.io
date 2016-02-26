@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Functionalists - Blog</title>
-    <link>http://thefunctionalists.com/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on The Functionalists - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Feb 2016 19:44:11 +0100</lastBuildDate>
-    <atom:link href="http://thefunctionalists.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>first</title>
-      <link>http://thefunctionalists.com/blog/post/first/</link>
+      <link>http://localhost:1313/blog/post/first/</link>
       <pubDate>Sun, 21 Feb 2016 19:44:11 +0100</pubDate>
       
-      <guid>http://thefunctionalists.com/blog/post/first/</guid>
+      <guid>http://localhost:1313/blog/post/first/</guid>
       <description></description>
     </item>
     
